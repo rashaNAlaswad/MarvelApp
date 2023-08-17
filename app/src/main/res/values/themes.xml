@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MarvelApp" parent="Theme.Material3.DayNight">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">@color/red</item>
+         <item name="colorPrimaryVariant">@color/red</item>
+        <item name="android:statusBarColor">@color/red</item>
+    </style>
+
+    <style name="Theme.MarvelApp" parent="Base.Theme.MarvelApp" />
+
+    <style name="Theme.MarvelApp.SplashScreen" parent="Theme.SplashScreen">
+        <item name="postSplashScreenTheme">@style/Theme.MarvelApp</item>
+        <item name="windowSplashScreenBackground">@color/white</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/logo</item>
+    </style>
+
+</resources>
